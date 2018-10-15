@@ -21,6 +21,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index),
     path('login_action/', views.login_action),
-
+    #如果没登录，返回登录页面
+    path('accounts/login/',views.index),
+    #增加退出跳转
+    path('logout/', views.logout),
     path('project_manage/', views.project_manage)
 ]
