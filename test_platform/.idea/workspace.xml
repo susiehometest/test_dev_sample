@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8bcf8667-dfbd-4435-ab89-3e542879161f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/test.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/user_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_platform/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_platform/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,35 +54,35 @@
     <session id="1776770861">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="141" />
-          <entry key="py" value="1008" />
+          <entry key="py" value="1009" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="141" />
-          <entry key="Python" value="1008" />
+          <entry key="Python" value="1009" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
-          <entry key="py" value="5" />
+          <entry key="py" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Python" value="5" />
+          <entry key="Python" value="6" />
         </counts>
       </usages-collector>
     </session>
@@ -91,33 +91,7 @@
     <favorites_list name="test_platform" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user_app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-              <folding>
-                <marker date="1539660350579" expanded="true" signature="352:357" ph="..." />
-                <marker date="1539660350579" expanded="true" signature="658:659" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user_app/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -130,19 +104,19 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/test_platform/settings.py" />
         <option value="$PROJECT_DIR$/user_app/tests.py" />
         <option value="$PROJECT_DIR$/templates/project_manage.html" />
         <option value="$PROJECT_DIR$/test_platform/urls.py" />
         <option value="$PROJECT_DIR$/user_app/views.py" />
         <option value="$PROJECT_DIR$/user_app/models.py" />
         <option value="$PROJECT_DIR$/user_app/admin.py" />
+        <option value="$PROJECT_DIR$/test_platform/settings.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="63" />
-    <option name="y" value="535" />
+    <option name="x" value="442" />
+    <option name="y" value="214" />
     <option name="width" value="1440" />
     <option name="height" value="811" />
   </component>
@@ -187,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,7 +199,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="63" y="535" width="1440" height="811" extended-state="0" />
+    <frame x="442" y="214" width="1440" height="811" extended-state="0" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25792813" />
       <window_info id="Favorites" order="1" side_tool="true" weight="0.32980973" />
@@ -285,13 +259,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_platform/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="88" column="28" selection-start-line="88" selection-start-column="28" selection-end-line="88" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_platform/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
@@ -309,17 +276,24 @@
     <entry file="file://$PROJECT_DIR$/user_app/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
-          <caret line="2" column="42" lean-forward="true" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test_platform/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="109" column="26" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/user_app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="588">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
             <marker date="1539660350579" expanded="true" signature="352:357" ph="..." />
             <marker date="1539660350579" expanded="true" signature="658:659" ph="..." />
