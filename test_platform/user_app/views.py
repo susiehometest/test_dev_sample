@@ -3,6 +3,7 @@ from django.http import HttpResponse,HttpResponseRedirect
 from django.contrib import auth
 #引用登陆访问授权
 from django.contrib.auth.decorators import login_required
+
 # Create your views here.
 # 主要代码逻辑：
 
@@ -29,15 +30,10 @@ def login_action(request):
                 auth.login(request,user)#记录用户登录状态
                 #将session记录到浏览器中
                 request.session['user1']=username
-                return HttpResponseRedirect('/project_manage/')
+                return HttpResponseRedirect('/manage/project_manage/')
             else:
                 return render(request, "index.html",{"error": "用户名或密码错误"})
 
-@login_required #判断用户是否登录
-def project_manage(request):
-    # 读取浏览器session
-    username=request.session.get('user1','')
-    return render(request, "project_manage.html",{"user":username})
 
 #增加logout视图
 def logout(request):
